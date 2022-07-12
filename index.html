@@ -7,8 +7,22 @@
 </head>
 <body>
 <h1 id="h1"> hello world </h1>
+<div>
+    <label>
+    <input id="email" type="email" value="" placeholder="e-mail" onchange="this.setAttribute('value', this.value);" />
+<!--    <button id="emailConfirmation">GO</button>-->
+<!--    </label>-->
+<!--</div>-->
+<!--<div >-->
+<!--    <label>-->
+    <input id="phone number" type="tel" value="" placeholder="phone number" onchange="this.setAttribute('value', this.value);" />
+    <button id="phoneConfirmation">GO</button>
+    </label>
+</div>
+<!--</label>-->
 
 <script type="module" src="tasks/jsTasks.js"> </script>
 <script type="module" src="tasks/jsFunctions.js"></script>
+<script type="module" src="tasks/contactValidation.js"></script>
 </body>
 </html>
